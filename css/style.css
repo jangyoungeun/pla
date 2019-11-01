@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900|Roboto:100,100i,300,400,400i,500,500i,700,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900|Roboto:100,100i,300,400,400i,500,500i,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans|Nanum+Gothic&display=swap");
 /* line 1, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -21,7 +20,7 @@
 /* 1. Theme default css */
 /* line 4, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 body {
-  font-family: "Roboto", sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -75,7 +74,7 @@ button {
 
 /* line 40, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Playfair Display", serif;
+font-family: 'Black Han Sans', sans-serif;
   color: #1F1F1F;
 }
 
@@ -107,7 +106,7 @@ p {
   line-height: 28px;
   color: #727272;
   margin-bottom: 13px;
-  font-family: "Roboto", sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
 }
 
 /* line 69, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
@@ -421,7 +420,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Playfair Display", serif;
+font-family: 'Black Han Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -525,6 +524,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 9, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_section_title.scss */
   .section_title h3 {
+    
     font-size: 33px;
     line-height: 40px;
   }
@@ -1159,7 +1159,7 @@ h3 {
 /* line 11, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #ffffff;
-  font-family: "Playfair Display", serif;
+font-family: 'Black Han Sans', sans-serif;
   font-size: 80px;
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -1206,15 +1206,7 @@ h3 {
 }
 
 /* line 43, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text p::before, .slider_area .single_slider .slider_text p::after {
-  position: absolute;
-  background: #BC9321;
-  width: 50px;
-  height: 1px;
-  position: absolute;
-  content: "";
-  top: 50%;
-}
+
 
 /* line 52, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p::before {
@@ -1838,14 +1830,14 @@ h3 {
   color: #4A3600;
   font-size: 18px;
   font-weight: 900;
-  font-family: "Playfair Display", serif;
+font-family: 'Nanum Gothic', sans-serif;
 }
 
 /* line 73, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_service.scss */
 .service_area .single_service p {
   margin-bottom: 0;
   font-size: 18px;
-  font-family: "Playfair Display", serif;
+font-family: 'Nanum Gothic', sans-serif;
   color: #BC9321;
 }
 
