@@ -1146,7 +1146,7 @@ font-family: 'Black Han Sans', sans-serif;
 
 /* line 1, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: <img src="banner.png" alt="">;
+  background-image: url(../banner.png);
 }
 
 /* line 5, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slider.scss */
